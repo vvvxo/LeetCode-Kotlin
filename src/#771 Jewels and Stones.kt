@@ -3,8 +3,8 @@ fun numJewelsInStones(J: String, S: String): Int {
     for (i in 0..(J.length - 1)) {
         for (j in 0..(S.length - 1)) {
             if (J[i] == S[j])
-                stons++;
+                stons++
         }
     }
-    return stons;
+    return stons
 }

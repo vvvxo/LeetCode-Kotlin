@@ -7,5 +7,3 @@ fun toLowerCase(str: String): String {
     }
     return String(tmpStr)
 }
-
-
